@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>New Tab</title>
+		<link rel="stylesheet" href="stylesheet.css"/>
+		<link rel="shortcut icon" type="image/png" href="icon.png"/>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+
+	<body onload = "document.getElementById('searchbox').focus();">
+		
+		<div class = container>
+
+			<form class = "form" autocomplete = "off" method="get" action="https://www.google.com/search?">
+					<input class = "search" id = "searchbox" type = "text" name="q" placeholder = "🔍"/>					
+			</form>	  
+					
+			<h2><button>My section</button></h2>
+			<div hidden>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur laoreet massa. Nam eu porta dolor. Vestibulum pulvinar lorem et nisl tempor lacinia.</p>
+				<p>Cras mi nisl, semper ut gravida sed, vulputate vel mauris. In dignissim aliquet fermentum. Donec arcu nunc, tempor sed nunc id, dapibus ornare dolor.</p>
+			</div>
+
+			<table class = "links">
+				<tr>
+					<td onClick="document.location.href='https://www.4chan.org/';">4chan</td>
+					<td onClick="document.location.href='https://www.reddit.com/';">Reddit</td>
+					<td onClick="document.location.href='https://www.twitch.tv/';">Twitch</td>
+					<td onClick="document.location.href='https://www.youtube.com/';">YouTube</td>						
+				</tr>
+				<tr>
+					<td onClick="document.location.href='https://imgur.com/';">Imgur</td>
+					<td onClick="document.location.href='https://mail.google.com/mail/u/0/#inbox/';">Email</td>
+					<td onClick="document.location.href='https://www.amazon.co.uk/';">Amazon</td>
+					<td onClick="document.location.href='https://www.nwolb.com/default.aspx';">Bank</td>
+				</tr>
+				<tr>
+					<td onClick="document.location.href='https://drive.google.com/drive/my-drive';">Drive</td>
+					<td onClick="document.location.href='http://192.168.0.20:5000';">NAS</td>
+					<td onClick="document.location.href='https://www.notion.so/';">Notion</td>
+					<td onClick="document.location.href='https://liquipedia.net/rocketleague/Main_Page';">Liquipedia</td>
+				</tr>	
+										
+					
+			</table>
+
+		
+	</body>

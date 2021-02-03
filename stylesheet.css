@@ -1,0 +1,140 @@
+html {
+	background: #ffffff url("100.png") no-repeat center center fixed;
+	text-align: center;
+	background-size: cover;
+
+	}
+
+.container {
+	display: flex;
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center;
+	height: 100%;
+	min-height: 100%;
+	filter: blur(0px);
+	z-index: 5; 
+	}
+	
+.blurbackground {
+	display: flex;
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center;
+	height: 100%;
+	min-height: 100%;
+	filter: blur(5px);
+	z-index: -10; 
+	}
+
+div.title {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 100;
+	padding: 25px;
+	color: #000000;
+	font-family: 'Verdana Pro Light', sans-serif;
+	}
+	
+div.center table {
+	margin: 0 auto;
+	}	
+	
+
+table.links {
+	text-align: center;
+	width: 390px;
+	}
+	
+button {
+	color: #ffffff;
+	vertical-align: center;
+	border: 2px solid;
+	background-color: rgba(16, 10, 30, 0.7);
+	border-color: rgba(6,0,20,.7);
+	border-radius: 3px;
+	user-select: none;
+	font-size: 16;
+	padding: 5px;
+	font-family: 'Verdana Pro Light', sans-serif;
+	text-decoration: none;
+	color: #eeeeee;
+	width: 300px;
+	z-index: 10;
+	}
+	
+a:link {
+	padding: 10px;
+	font-family: 'Verdana Pro Light', sans-serif;
+	text-decoration: none;
+	color: #eeeeee;
+	user-select: none;
+	}
+	
+a:visited {
+	text-decoration: none;
+	color: #eeeeee;
+	}
+	
+td {
+	color: #ffffff;
+	vertical-align: center;
+	border: 2px solid;
+	background-color: rgba(16, 10, 30, 0.7);
+	border-color: rgba(6,0,20,.7);
+	border-radius: 3px;
+	user-select: none;
+	font-size: 16;
+	padding: 5px;
+	font-family: 'Verdana Pro Light', sans-serif;
+	text-decoration: none;
+	color: #eeeeee;
+	width: 33%;
+	z-index: 10;
+	}
+	
+table {
+	border-spacing: 5px;
+	}
+
+input:focus {
+	background-color: rgba(6,0,20, 0.9);
+	}
+
+input {
+	width: 380px;
+	background-color: rgba(16, 10, 30, 0.7);
+	/*border: 0px solid #555555;*/
+	color: #cccccc;
+	padding: 10px;
+	/*box-shadow: 7px 7px 2px #010101;*/
+	border-radius: 3px;
+	border-color: rgba(6,0,20,.7);
+	border-style: solid;
+	font-family: 'Verdana Pro Light', sans-serif;
+	font-size: 15;
+	color: #cccccc;
+	}
+
+*:focus {
+	outline: none;
+	}
+
+	
+form {
+	font-family: 'Verdana Pro Light', sans-serif;
+	color: #cccccc;
+	font-size: 12;
+	}
+	
+::placeholder {
+	text-align: right;
+	}
+
+td:hover, button:hover, input:hover {
+	background-color: rgba(6,0,20,0.9);
+	}
+	
+td:active, button:active {
+	background-color: rgba(40,30,95, 0.9);
+	}
